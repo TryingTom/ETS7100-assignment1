@@ -30,11 +30,11 @@ public class MainActivity extends AppCompatActivity {
 
         listText = (EditText) findViewById(R.id.listText);
 
+        // find button
         SaveBtn = (Button) findViewById(R.id.bnt_save);
         DoneBtn = (Button) findViewById(R.id.btn_done);
 
         // let's get the button working
-        // find button
         // let's make it do stuff
         SaveBtn.setOnClickListener(new View.OnClickListener() {
             @Override
